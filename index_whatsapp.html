@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ur" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>J.M Islamic Mart | جے ایم اسلامک مارٹ</title>
+<meta name="description" content="J.M Islamic Mart اوکاڑہ — کھجوریں، شہد، زیتون کا تیل، عطر اور حج و عمرہ کا سامان۔">
+<style>
+:root{--green:#123d2d;--green2:#1b5a42;--gold:#d7b66d;--cream:#fbf8f0;--ink:#1f2b25}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,"Noto Nastaliq Urdu","Noto Naskh Arabic",sans-serif;background:var(--cream);color:var(--ink);line-height:1.8}
+header{background:linear-gradient(130deg,var(--green),#205b43);color:white;padding:22px 16px 36px}
+nav,.wrap{max-width:1050px;margin:auto}nav{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.brand{font-size:1.35rem;font-weight:800;color:var(--gold)}nav a{color:white;text-decoration:none;margin-inline-start:14px}
+.hero{max-width:1050px;margin:30px auto 0;display:grid;grid-template-columns:1.3fr .7fr;gap:22px;align-items:center}
+.hero h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.35;margin:0 0 10px}.hero p{font-size:1.05rem;color:#f3ead6}
+.hero-art{border:1px solid #ffffff40;border-radius:22px;padding:22px;text-align:center;background:#ffffff10;font-size:4.5rem}
+.btn{display:inline-block;border:0;border-radius:12px;padding:11px 18px;font-weight:700;text-decoration:none;cursor:pointer}
+.btn-gold{background:var(--gold);color:#193b2c}.btn-green{background:var(--green);color:white}
+section{padding:30px 16px}.section-head{text-align:center;margin-bottom:20px}.section-head h2{margin:0;color:var(--green);font-size:1.8rem}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:white;border:1px solid #e8e0d0;border-radius:16px;padding:18px;box-shadow:0 4px 14px #153b2810}
+.pic{height:100px;border-radius:12px;background:#f3eddf;display:grid;place-items:center;font-size:3rem;margin-bottom:12px}
+.card h3{margin:4px 0;color:var(--green)}.price{font-weight:800;color:#986d1e}.muted{color:#66736b;font-size:.93rem}
+.note{background:#f1e8d3;border-radius:14px;padding:16px;margin-top:20px}
+.about{background:#edf2eb}.contact{background:var(--green);color:white;text-align:center}.contact h2{color:var(--gold)}
+footer{text-align:center;padding:18px;background:#0d2d21;color:#dce6dd;font-size:.9rem}
+input,textarea{font:inherit;padding:11px;border:1px solid #d9d4c8;border-radius:10px;width:100%;margin:5px 0 12px}
+@media(max-width:700px){.hero{grid-template-columns:1fr}.hero-art{font-size:3rem}.grid{grid-template-columns:repeat(2,1fr)}nav{align-items:flex-start}.navlinks{width:100%}}
+@media(max-width:430px){.grid{grid-template-columns:1fr}.card{padding:15px}}
+</style>
+</head>
+<body>
+<header>
+<nav>
+<div class="brand">☾ J.M Islamic Mart</div>
+<div class="navlinks"><a href="#products">مصنوعات</a><a href="#about">ہمارے بارے میں</a><a href="#contact">رابطہ</a></div>
+</nav>
+<div class="hero">
+<div>
+<p>خوش آمدید — جامعہ محمدیہ مارکیٹ، حق بازار، اوکاڑہ</p>
+<h1>آپ کی دینی ضروریات، ایک ہی جگہ</h1>
+<p>کھجوریں، شہد، زیتون کا تیل، عطر، جائے نماز اور حج و عمرہ کا سامان۔ ریٹیل اور ہول سیل آرڈرز کے لیے رابطہ کریں۔</p>
+<a class="btn btn-gold" href="#products">مصنوعات دیکھیں</a>
+<a class="btn btn-gold" href="#contact">آرڈر کے لیے رابطہ</a>
+</div>
+<div class="hero-art" aria-label="اسلامی مصنوعات">🌴 🍯 🕌<div style="font-size:1rem;color:#f5e9cf">معیاری انتخاب • مناسب قیمت</div></div>
+</div>
+</header>
+
+<section id="products">
+<div class="wrap">
+<div class="section-head"><h2>ہماری مصنوعات</h2><p class="muted">ریٹیل خریداری کے لیے قیمت اور دستیابی واٹس ایپ پر معلوم کریں۔</p></div>
+<div class="grid">
+<article class="card"><div class="pic">🌴</div><h3>عجوہ اور دیگر کھجوریں</h3><p class="muted">سعودی کھجوریں اور منتخب اقسام۔</p><p class="price">قیمت معلوم کریں</p><button class="btn btn-green" onclick="order('عجوہ اور دیگر کھجوریں')">آرڈر کریں</button></article>
+<article class="card"><div class="pic">🍯</div><h3>خالص شہد</h3><p class="muted">مختلف اقسام اور پیکنگ دستیابی کے مطابق۔</p><p class="price">قیمت معلوم کریں</p><button class="btn btn-green" onclick="order('خالص شہد')">آرڈر کریں</button></article>
+<article class="card"><div class="pic">🫒</div><h3>زیتون کا تیل</h3><p class="muted">گھریلو استعمال اور آرڈر کے لیے رابطہ کریں۔</p><p class="price">قیمت معلوم کریں</p><button class="btn btn-green" onclick="order('زیتون کا تیل')">آرڈر کریں</button></article>
+<article class="card"><div class="pic">🧴</div><h3>عطر اور پرفیوم</h3><p class="muted">خوشبوؤں کا انتخاب۔</p><p class="price">قیمت معلوم کریں</p><button class="btn btn-green" onclick="order('عطر اور پرفیوم')">آرڈر کریں</button></article>
+<article class="card"><div class="pic">🕌</div><h3>جائے نماز اور تسبیح</h3><p class="muted">انفرادی اور ہول سیل آرڈرز۔</p><p class="price">قیمت معلوم کریں</p><button class="btn btn-green" onclick="order('جائے نماز اور تسبیح')">آرڈر کریں</button></article>
+<article class="card"><div class="pic">🕋</div><h3>حج و عمرہ کا سامان</h3><p class="muted">احرام اور دیگر ضروری اشیاء۔</p><p class="price">قیمت معلوم کریں</p><button class="btn btn-green" onclick="order('حج و عمرہ کا سامان')">آرڈر کریں</button></article>
+</div>
+<div class="note"><strong>آرڈر کرنے کا آسان طریقہ:</strong> اپنی پسند کی مصنوعات کے نیچے “آرڈر کریں” دبائیں۔ پیغام واٹس ایپ پر تیار ہو جائے گا؛ بھیجنے سے پہلے مقدار اور قیمت کی تصدیق کر لیں۔</div>
+</div>
+</section>
+
+<section id="about" class="about">
+<div class="wrap">
+<div class="section-head"><h2>ہمارے بارے میں</h2></div>
+<p><strong>J.M Islamic Mart</strong> اوکاڑہ میں واقع اسلامی اور روزمرہ استعمال کی منتخب مصنوعات کی دکان ہے۔ ہمارا مقصد گاہکوں کو مصنوعات کی معلومات، آرڈر اور رابطے کی آسان سہولت فراہم کرنا ہے۔</p>
+<p class="muted">پتہ: جامعہ محمدیہ مارکیٹ، حق بازار، اوکاڑہ، پاکستان</p>
+</div>
+</section>
+
+<section id="contact" class="contact">
+<div class="wrap">
+<h2>آرڈر یا معلومات کے لیے رابطہ کریں</h2>
+<p>اپنا واٹس ایپ نمبر ویب سائٹ میں شامل کرنے کے لیے نیچے دی گئی ہدایت پر عمل کریں۔</p>
+<p><strong>واٹس ایپ:</strong> 0303 0077534</p>
+<a class="btn btn-gold" href="#products">مصنوعات دیکھیں</a>
+<p class="muted" style="color:#d5e2d9">مصنوعات کی موجودہ قیمت اور دستیابی آرڈر سے پہلے واٹس ایپ پر تصدیق کریں۔</p>
+</div>
+</section>
+<footer>© J.M Islamic Mart — اوکاڑہ | تمام حقوق محفوظ ہیں</footer>
+<script>
+/* اپنی دکان کا واٹس ایپ نمبر نیچے درج کریں: ملک کے کوڈ سمیت، صرف ہندسے۔ مثال: 923001234567 */
+const WHATSAPP_NUMBER = "923030077534";
+function order(product){
+ const message = "السلام علیکم، مجھے J.M Islamic Mart سے "+product+" کے بارے میں قیمت اور دستیابی معلوم کرنی ہے۔";
+ if(WHATSAPP_NUMBER.includes("X")){alert("واٹس ایپ آرڈر فعال کرنے کے لیے HTML فائل میں WHATSAPP_NUMBER کی جگہ اپنا نمبر درج کریں۔");return;}
+ window.location.href = "https://wa.me/" + WHATSAPP_NUMBER + "?text=" + encodeURIComponent(message);
+}
+</script>
+</body>
+</html>
